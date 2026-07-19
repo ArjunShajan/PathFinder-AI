@@ -1,0 +1,17 @@
+[
+  {"id": "q1", "category": "Interests", "question": "Which activity would you choose to spend a free afternoon on?", "options": ["Building or fixing something with my hands", "Reading a story or writing one", "Solving puzzles or brain teasers", "Organizing an event with friends"]},
+  {"id": "q2", "category": "Interests", "question": "Which school subject do you look forward to the most?", "options": ["Mathematics", "Science / Biology", "Art / Music", "Social Studies / Languages"]},
+  {"id": "q3", "category": "Interests", "question": "If you joined a club today, which would you pick?", "options": ["Robotics / Coding club", "Debate / Drama club", "Sports team", "Eco / Science club"]},
+  {"id": "q4", "category": "Aptitude", "question": "You're given a broken toy. What do you do first?", "options": ["Take it apart to see how it works", "Look up a video tutorial", "Ask someone else to fix it", "Decide it's not worth fixing"]},
+  {"id": "q5", "category": "Aptitude", "question": "A word problem has two possible answers. How do you pick?", "options": ["Re-check the logic step by step", "Trust my gut instinct", "Ask a friend to verify", "Guess and move on"]},
+  {"id": "q6", "category": "Aptitude", "question": "How comfortable are you imagining 3D shapes from a flat drawing?", "options": ["Very comfortable, I can visualize it instantly", "Somewhat comfortable with practice", "I find it a bit tricky", "I usually need a physical model"]},
+  {"id": "q7", "category": "Aptitude", "question": "When explaining an idea to friends, you usually...", "options": ["Use clear step-by-step logic", "Tell a story or use an analogy", "Draw a diagram", "Just show them directly"]},
+  {"id": "q8", "category": "Personality", "question": "In a group project, you naturally...", "options": ["Take the lead and assign tasks", "Support quietly and get things done", "Bring creative new ideas", "Keep the peace and mediate disagreements"]},
+  {"id": "q9", "category": "Personality", "question": "How do you react when a plan suddenly changes?", "options": ["Adapt quickly and find a new approach", "Feel stressed but push through", "Need a moment to reset first", "Ask others what they think we should do"]},
+  {"id": "q10", "category": "Personality", "question": "What motivates you most?", "options": ["Solving a hard challenge", "Helping or teaching someone", "Creating something original", "Being recognized for great work"]},
+  {"id": "q11", "category": "Personality", "question": "Do you prefer working...", "options": ["Alone, deeply focused", "In a small close team", "In a large energetic group", "It depends on the task"]},
+  {"id": "q12", "category": "Skills", "question": "Which of these have you tried or would like to try?", "options": ["Coding / Scratch / Python", "Public speaking / Debate", "Drawing / Design tools", "Robotics / Electronics kits"]},
+  {"id": "q13", "category": "Skills", "question": "How would you rate your comfort with numbers and calculations?", "options": ["Very comfortable", "Comfortable with effort", "Okay, but not my strength", "I prefer non-numeric tasks"]},
+  {"id": "q14", "category": "Skills", "question": "How do you feel about presenting in front of a class?", "options": ["I enjoy it", "I can do it if prepared", "It makes me nervous but I manage", "I'd rather avoid it"]},
+  {"id": "q15", "category": "Aspirations", "question": "Which future excites you most?", "options": ["Inventing new technology", "Running my own business", "Helping people directly (health/teaching)", "Creating art, media or games"]}
+]
