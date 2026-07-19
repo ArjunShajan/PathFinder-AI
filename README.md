@@ -1,77 +1,64 @@
 # 🧭 PathFinder AI
 
-> **An AI-powered career guidance platform that helps users discover suitable career paths, identify skill gaps, generate personalized learning roadmaps, and prepare for interviews.**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
-![Groq](https://img.shields.io/badge/Groq-AI-blue?style=for-the-badge)
+An AI-powered **Career Discovery & Skill Development Platform** that helps students and professionals identify suitable career paths, analyze their skills, discover skill gaps, and generate personalized learning roadmaps using Artificial Intelligence.
 
 ---
 
-## 📖 Overview
+## 📌 Features
 
-PathFinder AI is an intelligent career guidance platform designed to help students and professionals make informed career decisions. The application analyzes user skills, recommends suitable career paths, identifies missing skills, generates personalized learning roadmaps, and assists with interview preparation using AI.
-
----
-
-## ✨ Features
-
-- 🤖 AI-based Career Recommendation
-- 📄 Resume & Skill Analysis
-- 🎯 Personalized Career Suggestions
-- 📚 Skill Gap Identification
-- 🛣️ AI-Generated Learning Roadmap
-- 🎤 Interview Question Generation
-- 💬 AI Career Mentor
-- 📊 Interactive Dashboard
-- 🔐 Secure User Authentication
-- 📱 Responsive User Interface
+* 🤖 AI-powered career recommendations
+* 📄 Resume and skill analysis
+* 🎯 Personalized career guidance
+* 📚 Skill gap identification
+* 🛣️ AI-generated learning roadmap
+* 💬 AI career assistant powered by Groq
+* 📊 Interactive user dashboard
+* 🔐 Secure user authentication using JWT
+* ⚡ Fast and responsive web application
 
 ---
 
 ## 🛠️ Tech Stack
 
 ### Frontend
-- React.js
-- Vite
-- React Router
-- Axios
-- Framer Motion
-- Recharts
+* React.js
+* Vite
+* React Router
+* Axios
+* CSS
 
 ### Backend
-- FastAPI
-- Python
-- SQLAlchemy
-- JWT Authentication
-- SQLite
-- Pydantic
+* Python
+* FastAPI
+* SQLAlchemy
+* SQLite
+* JWT Authentication
+* Pydantic
 
 ### AI & Machine Learning
-- Groq API
-- NLP
-- Career Recommendation Engine
+* Groq API
+* Natural Language Processing (NLP)
+* Prompt Engineering
 
 ---
 
 ## 📂 Project Structure
 
-```
-PathFinder-AI
-│
-├── frontend/
-│   ├── src/
-│   ├── public/
-│   └── package.json
+```text
+PathFinder-AI/
 │
 ├── backend/
 │   ├── app/
 │   ├── requirements.txt
-│   └── .env
+│   ├── .env
+│   └── main.py
+│
+├── frontend/
+│   ├── src/
+│   ├── public/
+│   ├── package.json
+│   ├── vite.config.js
+│   └── index.html
 │
 └── README.md
 ```
@@ -84,9 +71,6 @@ PathFinder-AI
 
 ```bash
 git clone https://github.com/ArjunShajan/PathFinder-AI.git
-```
-
-```bash
 cd PathFinder-AI
 ```
 
@@ -112,13 +96,13 @@ Activate it
 venv\Scripts\activate
 ```
 
-**Linux/Mac**
+**Linux/macOS**
 
 ```bash
 source venv/bin/activate
 ```
 
-Install dependencies
+Install the required packages
 
 ```bash
 pip install -r requirements.txt
@@ -127,17 +111,17 @@ pip install -r requirements.txt
 Create a `.env` file
 
 ```env
-GROQ_API_KEY=your_api_key_here
+GROQ_API_KEY=your_groq_api_key
 SECRET_KEY=your_secret_key
 ```
 
-Run the backend
+Run the backend server
 
 ```bash
 uvicorn app.main:app --reload
 ```
 
-Backend runs at
+Backend runs at:
 
 ```
 http://127.0.0.1:8000
@@ -151,19 +135,19 @@ http://127.0.0.1:8000
 cd frontend
 ```
 
-Install packages
+Install dependencies
 
 ```bash
 npm install
 ```
 
-Start the development server
+Run the development server
 
 ```bash
 npm run dev
 ```
 
-Frontend runs at
+Frontend runs at:
 
 ```
 http://localhost:5173
@@ -171,22 +155,47 @@ http://localhost:5173
 
 ---
 
-## 📸 Screenshots
+## 🧠 How It Works
+
+1. User signs in to the platform.
+2. User enters skills or uploads career-related information.
+3. AI analyzes the user's profile.
+4. Suitable career paths are recommended.
+5. Missing skills are identified.
+6. A personalized learning roadmap is generated.
+7. Users can interact with the AI Career Assistant for additional guidance.
+
+---
+
+## 📋 Requirements
+
+* Python 3.10+
+* Node.js 18+
+* npm
+* FastAPI
+* React
+* SQLite
+* Groq API Key
+
+---
+
+## 📷 Screenshots
 
 Add screenshots of:
 
-- 🏠 Home Page
-- 🔐 Login/Register
-- 📊 Dashboard
-- 🎯 Career Recommendation
-- 🛣️ Learning Roadmap
-- 🤖 AI Chat Assistant
+* 🏠 Home Page
+* 🔐 Login/Register
+* 📊 Dashboard
+* 🎯 Career Recommendations
+* 🛣️ Learning Roadmap
+* 💬 AI Career Assistant
 
 Example:
 
-```
+```text
 screenshots/
 ├── home.png
+├── login.png
 ├── dashboard.png
 ├── roadmap.png
 └── recommendation.png
@@ -194,42 +203,17 @@ screenshots/
 
 ---
 
-## 🔮 Future Enhancements
+## 🌟 Future Enhancements
 
-- Resume PDF Upload
-- Job Recommendation Engine
-- LinkedIn Integration
-- AI Mock Interviews
-- Voice-based Career Assistant
-- Multi-language Support
-- Cloud Deployment
+* 📄 Resume PDF Parsing
+* 🎤 AI Mock Interview Module
+* 💼 Job Recommendation Engine
+* 📈 Skill Progress Tracking
+* 🌐 Multi-language Support
+* ☁️ Cloud Deployment
+* 📱 Mobile Application
+* 🔗 LinkedIn Integration
 
----
-
-## 🤝 Contributing
-
-Contributions are welcome.
-
-1. Fork the repository
-2. Create a new branch
-
-```bash
-git checkout -b feature-name
-```
-
-3. Commit changes
-
-```bash
-git commit -m "Add new feature"
-```
-
-4. Push changes
-
-```bash
-git push origin feature-name
-```
-
-5. Open a Pull Request
 
 ---
 
@@ -237,19 +221,14 @@ git push origin feature-name
 
 **Arjun Shajan**
 
-- GitHub: https://github.com/ArjunShajan
-- Email: arjunshajan193@gmail.com
+B.Tech – Artificial Intelligence & Data Science
+
+📧 Email: **arjunshajan193@gmail.com**
+
+🌐 GitHub: **https://github.com/ArjunShajan**
 
 ---
 
 ## ⭐ Support
 
-If you found this project helpful, please consider giving it a **⭐ Star** on GitHub.
-
-It helps others discover the project and supports future development.
-
----
-
-## 📄 License
-
-This project is licensed under the **MIT License**.
+If you found this project helpful, consider giving it a ⭐ on GitHub.
